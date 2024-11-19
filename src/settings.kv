@@ -1,0 +1,32 @@
+#:kivy 2.0.0
+
+<SettingsScreen>:
+    BoxLayout:
+        orientation:'vertical'
+        # 使用HeaderLayout
+        HeaderLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: "返回"
+                on_release: root.hide_settings()
+            Label:
+                text: "设置页面"
+                font_size: '20sp'
+        ScrollView:
+            GridLayout:
+                cols: 1
+                size_hint_y: None
+                height: self.minimum_height
+                Slider:
+                    id: font_size_slider
+                    min: 10
+                    max: 30
+                    value: 16
+                    on_value: root.set_font_size(self.value)
+                Switch:
+                    id: some_switch
+                    on_active: root.toggle_some_setting(self.active)
+                ColorPicker:
+                    id: text_color_picker
+                    on_color: root.set_text_color(self.color)

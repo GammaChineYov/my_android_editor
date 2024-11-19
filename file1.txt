@@ -1,0 +1,123 @@
+文件122文件122文件 122文,件122文件名：src/text_input_cursor/__init__.py
+    文件内容：
+    from kivy.uix.textinput import TextInput
+from .cursor_position_handler import CursorPositionHandler
+import re
+class TextInputCursor:
+    def __init__(self, textinput: TextInput):
+        self.textinput = textinput
+        self.cursor_position_handler = CursorPositionHandler()
+        self.touch_event_handler = TouchEventHandler(self)
+        self.word_index_handler = WordIndexHandler()
+        self.enable = True
+        self.textinput.bind(on_double_tap=self.on_double_tap, cursor_index=self.on_cursor_index_change)
+        self.textinput.bind(on_touch_down=self.touch_event_handler.on_touch_down, on_touch_move=self.touch_event_handler.on_touch_move, on_touch_up=self.touch_event_handler.on_touch_up)
+    def on_double_tap(self, instance):
+        if self.enable:
+            start, end = self.word_index_handler.get_word_index(self.textinput)
+            instance.select_text(start, end)
+            self.textinput.selection_from = start
+            self.textinput.selection_to = end
+            self.textinput.selection_text = self.textinput.text[start:end]
+    def on_cursor_index_change(self, instance, value):
+        if self.enable:
+            start, end = self.cursor_position_handler.handle_cursor_index_change(self.textinput, value)
+            if end - start > 0:
+                self.textinput.select_text(start, end)
+                self.textinput.selection_from = start
+                self.textinput.selection_to = end
+                self.textinput.selection_text = self.textinput.text[start:end]
+
+
+    文件名：src/text_input_cursor/cursor_position_handler.py    文件内容：
+    from typing import Tuple
+class CursorPositionHandler:
+    def handle_cursor_index_change(self, textinput: 'TextInput', value: int) -> Tuple[int, int]:
+        is_hold_sliding = False
+        if not is_hold_sliding:
+            if textinput.ctrl and textinput.ctrl_start:
+                start = textinput.ctrl_start
+            else:
+                start = value
+            if textinput.ctrl and textinput.ctrl_end:
+                end = textinput.ctrl_end
+            else:
+                end = value
+        else:
+            start = min(textinput.touch_start_cursor_index, value)
+            end = max(textinput.touch_start_cursor_index, value)
+        return (start, end)
+
+
+    文件名：src/text_input_cursor/touch_event_handler.py
+    文件内容：
+
+
+文件名：src/text_input_cursor/cursor_position_handler.py    
+文件内容：
+    from typing import Tuple
+class CursorPositionHandler:
+    def handle_cursor_index_change(self, textinput: 'TextInput', value: int) -> Tuple[int, int]:
+        is_hold_sliding = False
+        if not is_hold_sliding:
+            if textinput.ctrl and textinput.ctrl_start:
+                start = textinput.ctrl_start
+            else:
+                start = value
+            if textinput.ctrl and textinput.ctrl_end:
+                end = textinput.ctrl_end
+            else:
+                end = value
+        else:
+            start = min(textinput.touch_start_cursor_index, value)
+            end = max(textinput.touch_start_cursor_index, value)
+        return (start, end)
+
+文件名：src/text_input_cursor/模块划分.txt
+    文件内容：
+    以下是对需求的分析以及关于类的划分的探讨：
+
+一、需求分析
+
+1. 总体功能：实现一个与文本输入框交互的  TextInputCursor ， 主要处理用户的双击、游标位置变化以及滑动等操作。
+2. 用户双击事件：在用户双击时，确定单词的起始和结束位置，并 进行文本选择。
+3. 游标位置变化事件：根据不同的状态条件设置  start  和  end  的值，并在合适的时候进行文本选择。
+4. 用户滑动部分：包括滑动开始、滑动过程和滑动结束的处理，涉 及设置状态标志、记录相关信息以及更新文本选择。
+5.  get_word_index  功能：通过分析游标位置和文本内容，确定当前单词的起止位置。
+
+二、类的划分
+
+可以考虑以下几个类：
+
+1.  TextInputCursor  类：
+
+- 主要负责整体的交互逻辑控制，绑定文本输入框的相关事件，协调其他类的操作。
+- 持有文本输入框对象的引用，以便访问和操作文本输入框的属性和方法。
+- 包含处理用户双击、游标位置变化和滑动等事件的方法。
+- 通过控制自身的  enable  属性来决定是否处理事件。
+2.  CursorPositionHandler  类：
+
+- 专门处理游标位置相关的操作，包括确定  start  和  end  的值。
+- 根据  is_sliding  和  is_hold_sliding  等状态来计算游标位 置。
+- 可以被  TextInputCursor  类调用，以获取正确的游标位置信息 。
+- 具有自身的  enable  属性，以便在需要时暂停或恢复处理游标位置的操作。
+3.  TouchEventHandler  类：
+
+- 处理用户的触摸事件，包括滑动开始、滑动过程和滑动结束。
+- 记录触摸相关的信息，如触摸位置、时间和游标位置等。
+- 设置相应的状态标志，如  is_sliding 、 is_hold_sliding  和  hold_check_flag 。
+- 同样可以被  TextInputCursor  类调用，以处理触摸事件。
+- 拥有  enable  属性来控制触摸事件的处理。
+4.  WordIndexHandler  类：
+
+- 负责实现  get_word_index  功能，确定单词的起止位置。
+- 可以被  TextInputCursor  类在用户双击事件中调用，以获取单 词的索引。
+- 也有自己的  enable  属性，以便控制单词索引的计算。
+
+三、类之间的交互
+
+1.  TextInputCursor  类作为主要的控制类，持有其他三个类的对 象引用，以便在需要时调用它们的方法。
+2. 其他三个类在处理各自的任务时，如果需要影响其他类的操作， 可以通过  TextInputCursor  类进行间接控制。例如， TouchEventHandler  在处理滑动事件时，如果需要更新游标位置，可以通知  TextInputCursor ，由  TextInputCursor  调用  CursorPositionHandler  来更新游标位置。
+3. 每个类的  enable  属性可以在特定情况下被设置为  False ， 以暂停该类的操作。例如，当出现错误或不需要处理某些事件时，可以通过设置  enable  属性来停止相应类的功能。
+
+这种设计可以使代码更加模块化，易于维护和扩展。每个类专注于特定的任务，通过  TextInputCursor  类进行协调和控制，同时可以 通过设置  enable  属性来灵活地控制各个类的功能。

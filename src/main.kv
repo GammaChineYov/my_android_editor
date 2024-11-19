@@ -1,0 +1,28 @@
+#:kivy 2.0.0
+
+<MainScreen>:
+    BoxLayout:
+        orientation:'vertical'
+        # 使用HeaderLayout
+        HeaderLayout:
+            size_hint_y: None
+            height: '48dp'
+            Label:
+                text: root.scene_name
+                font_size: '20sp'
+            Button:
+                text: "设置页面"
+                on_release: root.show_settings()
+        TextInput:
+            id: text_edit
+            multiline: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            orientation: 'horizontal'
+            MyRadioButton:
+                text_value: "功能1"
+                group:'function'
+            MyRadioButton:
+                text_value: "功能2"
+                group:'function'
