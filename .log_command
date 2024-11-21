@@ -1,0 +1,6 @@
+
+# 为了解决无法用调试器
+# python-env-tools
+pip install pet
+# 重启code-server
+pkill -f code-server && code-server
