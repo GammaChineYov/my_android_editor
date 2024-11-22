@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button List Example</title>
+  <style>
+    /* 整体页面布局相关样式 */
+    body {
+      font-family: Arial, sans-serif;
+      //margin: 5px;
+      padding: 0;
+      //background-color: #80f8f9fa; /* 页面背景色，可根据喜好调整 */
+    }
+
+    /* 放置按钮的box样式优化 */
+  .button-box {
+      background-color: #f4f4f4;
+      border-radius: 5px;
+      box-sizing: border-box;
+      width: 95%; /* 占页面宽度的80%，可根据需求调整 */
+      height: 95%;
+      max-width: 600px; /* 设置最大宽度，避免在大屏幕上过于分散 */
+      margin: 3px auto; /* 上下外边距20px，左右自动居中 */
+      padding: 3px; /* 添加内边距，让按钮区域看起来更舒适 */
+display: flex; /* 使用flex布局，方便让按钮居中且占满宽度 */
+align-items: center; /* 子元素（按钮）在交叉轴（水平方向）居中 */
+flex-direction: column; /* 纵向排列子元素（按钮） */
+    }
+
+    button {
+      border: none;
+      border-radius: 5px;
+      text-align: center;
+      padding: 3px 3px; /* 按钮内边距，调整按钮大小和文本位置 */
+      cursor: pointer; /* 鼠标悬停变为手型，提示可点击 */
+      background-color: #007BFF; /* 按钮默认背景色 */
+      color: white; /* 按钮文本颜色 */
+      transition: background-color 0.3s ease; /* 过渡效果，让背景色变化更平滑 */
+width: 100%; /* 让按钮宽度占满button-box的宽度 */
+    }
+
+    button:hover {
+      background-color: #0056b3; /* 鼠标悬停时按钮背景色变化 */
+    }
+.button-container {
+margin: 6px;
+      width: 100%;
+      display: flex; /* 使用flex布局，方便让按钮在其内部也能居中等操作 */
+      justify-content: center; /* 让按钮在button-container内水平居中 */
+      align-items: center; /* 让按钮在button-container内垂直居中 */
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- 创建一个专门放置按钮的box -->
+  <div class="button-box"></div>
+
+  <script>
+    // 用于存储按钮点击的回调函数
+    const buttonCallbacks = [];
+
+    // 生成按钮列表的函数，现在将按钮添加到特定的button-box中
+    function generateButton(buttonDataStr) {
+      // 先对传入的JSON字符串进行解码
+      const buttonData = JSON.parse(buttonDataStr);
+
+      const buttonContainer = document.createElement('div');
+buttonContainer.classList.add('button-container'); // 添加button-container类名
+      // 获取之前创建的button-box并添加按钮容器到其中
+      const buttonBox = document.querySelector('.button-box');
+      buttonBox.appendChild(buttonContainer);
+      const button = document.createElement('button');
+      buttonContainer.appendChild(button);
+      buttonBox.appendChild(buttonContainer);
+
+      button.textContent = buttonData.name;
+      const callbackIndex = buttonBox.children.length - 1;
+      const callback = function () {
+        // 在回调函数中添加alert来测试回调内容
+        alert(`按钮 ${buttonData.name} 被点击，回调索引为: ${callbackIndex}`);
+        window.airscript.call("button_callback", callbackIndex.toString());
+      };
+      button.addEventListener('click', callback);
+
+saveButtonBoxHeightToCache();
+    }
+
+    // 清除按钮列表的函数，现在从button-box中移除相关元素
+    function clearButtonList() {
+      const buttonBox = document.querySelector('.button-box');
+      if (buttonBox) {
+        const buttonContainers = buttonBox.querySelectorAll('div');
+        buttonContainers.forEach((container) => {
+          buttonBox.removeChild(container);
+        });
+      }
+    }
+function saveButtonBoxHeightToCache() {
+      const buttonBox = document.querySelector('.button-box');
+      const buttonBoxHeight = buttonBox.offsetHeight;
+      // 使用window.airscript.save将高度存入缓存
+      window.airscript.save('buttonBoxHeight', buttonBoxHeight.toString());
+      console.log('已将button_box的高度保存到缓存：', buttonBoxHeight);
+    }
+  </script>
+
+</body>
+
+</html>

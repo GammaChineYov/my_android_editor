@@ -1,0 +1,57 @@
+#:kivy 2.2.1
+
+<MainScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        size_hint: (1, 1)
+
+        TextInput:
+            id: text_input
+            multiline: True
+            size_hint: (1, 1)
+
+        BoxLayout:
+            orientation: 'horizontal'
+            size_hint_y: None
+            height: root.height / 15
+
+            Button:
+                text: 'Shift'
+            Button:
+                text: 'Home'
+            Button:
+                text: '#'
+            Button:
+                text: '↑'
+            Button:
+                text: 'Del'
+
+        BoxLayout:
+            orientation: 'horizontal'
+            size_hint_y: None
+            height: root.height / 15
+
+            Button:
+                text: 'Ctrl'
+            Button:
+                text: 'End'
+            Button:
+                text: '←'
+            Button:
+                text: '↓'
+            Button:
+                text: '→'
+        BoxLayout:
+            orientation: 'horizontal'
+            size_hint_y: None
+            height: root.height / 15
+
+            Button:
+                text: '选择文件'
+                on_release: root.switch_to_file_chooser()
+            Button:
+                text: '复制'
+                on_release: root.copy_text()
+            Button:
+                text: '粘贴'
+                on_release: root.paste_text()

@@ -1,0 +1,62 @@
+{
+    "class_name": "WebWindow",
+    "module": "ascript.android.ui",
+    "bases": [
+        "object"
+    ],
+    "attributes": {
+        "id": "<class 'NoneType'>"
+    },
+    "methods": {
+        "background": {
+            "signature": "(color: str)",
+            "docstring": null
+        },
+        "call": {
+            "signature": "(js: str)",
+            "docstring": null
+        },
+        "close": {
+            "signature": "()",
+            "docstring": null
+        },
+        "dim_amount": {
+            "signature": "(dim: float = 0.5)",
+            "docstring": null
+        },
+        "drag": {
+            "signature": "(is_drag: bool = False)",
+            "docstring": null
+        },
+        "gravity": {
+            "signature": "(gravity: int = None, offset_x: int = None, offset_y: int = None)",
+            "docstring": null
+        },
+        "mode": {
+            "signature": "(mode: int = 0)",
+            "docstring": null
+        },
+        "show": {
+            "signature": "()",
+            "docstring": null
+        },
+        "size": {
+            "signature": "(width=None, height=None)",
+            "docstring": null
+        },
+        "tunner": {
+            "signature": "(fun)",
+            "docstring": null
+        },
+        "type": {
+            "signature": "(ftype: int = 0)",
+            "docstring": null
+        }
+    },
+    "methods_error": {
+        "window": "Error getting method: Cannot convert type object to java.lang.Object"
+    },
+    "bases_info_error": {
+        "object": "Error getting base class info: name 'get_class_info_json' is not defined"
+    }
+}

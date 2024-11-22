@@ -1,0 +1,5761 @@
+
+文件名:docs/.html
+文件内容:
+
+       Plyer
+
+       2.0.0
+
+          Welcome to Plyer
+
+            Plyer
+
+            Facades
+
+          Indices and tables
+
+      Plyer
+
+          Docs
+
+         »
+
+         Welcome to Plyer
+
+          Edit on GitHub
+
+          Welcome to Plyer
+
+           Â¶
+
+          Plyer is a Python library for accessing features of your hardware / platforms.
+
+           Plyer
+
+            Â¶
+
+             plyer.
+
+             accelerometer
+
+             = <plyer.platforms.linux.accelerometer.LinuxAccelerometer object>
+
+             Â¶
+
+             Accelerometer proxy to
+
+                plyer.facades.Accelerometer
+
+             plyer.
+
+             audio
+
+             = <plyer.facades.audio.Audio object>
+
+             Â¶
+
+             Audio proxy to
+
+                plyer.facades.Audio
+
+             plyer.
+
+             barometer
+
+             = <plyer.facades.barometer.Barometer object>
+
+             Â¶
+
+             Barometer proxy to
+
+                plyer.facades.Barometer
+
+             plyer.
+
+             battery
+
+             = <plyer.facades.battery.Battery object>
+
+             Â¶
+
+             Battery proxy to
+
+                plyer.facades.Battery
+
+             plyer.
+
+             bluetooth
+
+             = <plyer.facades.bluetooth.Bluetooth object>
+
+             Â¶
+
+             Bluetooth proxy to
+
+                plyer.facades.Bluetooth
+
+             plyer.
+
+             brightness
+
+             = <plyer.facades.brightness.Brightness object>
+
+             Â¶
+
+             Brightness proxy to
+
+                plyer.facades.Brightness
+
+             plyer.
+
+             call
+
+             = <plyer.facades.call.Call object>
+
+             Â¶
+
+             Call proxy to  :class
+
+              plyer.facades.Call
+
+             plyer.
+
+             camera
+
+             = <plyer.facades.camera.Camera object>
+
+             Â¶
+
+             Camera proxy to
+
+                plyer.facades.Camera
+
+             plyer.
+
+             compass
+
+             = <plyer.facades.compass.Compass object>
+
+             Â¶
+
+             Compass proxy to
+
+                plyer.facades.Compass
+
+             plyer.
+
+             cpu
+
+             = <plyer.platforms.linux.cpu.LinuxCPU object>
+
+             Â¶
+
+             Processors proxy to
+
+                plyer.facades.CPU
+
+             plyer.
+
+             email
+
+             = <plyer.platforms.linux.email.LinuxEmail object>
+
+             Â¶
+
+             Email proxy to
+
+                plyer.facades.Email
+
+             plyer.
+
+             filechooser
+
+             = <plyer.platforms.linux.filechooser.LinuxFileChooser object>
+
+             Â¶
+
+             FileChooser proxy to
+
+                plyer.facades.FileChooser
+
+             plyer.
+
+             flash
+
+             = <plyer.facades.flash.Flash object>
+
+             Â¶
+
+             Flash proxy to
+
+                plyer.facades.Flash
+
+             plyer.
+
+             gps
+
+             = <plyer.facades.gps.GPS object>
+
+             Â¶
+
+             GPS proxy to
+
+                plyer.facades.GPS
+
+             plyer.
+
+             gravity
+
+             = <plyer.facades.gravity.Gravity object>
+
+             Â¶
+
+             Gravity proxy to
+
+                plyer.facades.Gravity
+
+             plyer.
+
+             gyroscope
+
+             = <plyer.facades.gyroscope.Gyroscope object>
+
+             Â¶
+
+             Gyroscope proxy to
+
+                plyer.facades.Gyroscope
+
+             plyer.
+
+             humidity
+
+             = <plyer.facades.humidity.Humidity object>
+
+             Â¶
+
+             Humidity proxy to
+
+                plyer.facades.Humidity
+
+             plyer.
+
+             irblaster
+
+             = <plyer.facades.irblaster.IrBlaster object>
+
+             Â¶
+
+             IrBlaster proxy to
+
+                plyer.facades.IrBlaster
+
+             plyer.
+
+             keystore
+
+             = <plyer.facades.keystore.Keystore object>
+
+             Â¶
+
+             Keyring proxy to :class::
+
+              plyer.facades.Keyring
+
+             plyer.
+
+             light
+
+             = <plyer.facades.light.Light object>
+
+             Â¶
+
+             Light proxy to
+
+                plyer.facades.Light
+
+             plyer.
+
+             notification
+
+             = <plyer.facades.notification.Notification object>
+
+             Â¶
+
+             Notification proxy to
+
+                plyer.facades.Notification
+
+             plyer.
+
+             orientation
+
+             = <plyer.platforms.linux.orientation.LinuxOrientation object>
+
+             Â¶
+
+             Orientation proxy to
+
+                plyer.facades.Orientation
+
+             plyer.
+
+             processors
+
+             = <plyer.platforms.linux.processors.LinuxProcessors object>
+
+             Â¶
+
+             Processors proxy to
+
+                plyer.facades.Processors
+
+             plyer.
+
+             proximity
+
+             = <plyer.facades.proximity.Proximity object>
+
+             Â¶
+
+             Proximity proxy to
+
+                plyer.facades.Proximity
+
+             plyer.
+
+             screenshot
+
+             = <plyer.facades.screenshot.Screenshot object>
+
+             Â¶
+
+             Screenshot proxy to
+
+                plyer.facades.Screenshot
+
+             plyer.
+
+             sms
+
+             = <plyer.facades.sms.Sms object>
+
+             Â¶
+
+             Sms proxy to
+
+                plyer.facades.Sms
+
+             plyer.
+
+             spatialorientation
+
+             = <plyer.facades.spatialorientation.SpatialOrientation object>
+
+             Â¶
+
+             SpatialOrientation proxy to
+
+                plyer.facades.SpatialOrientation
+
+             plyer.
+
+             storagepath
+
+             = <plyer.platforms.linux.storagepath.LinuxStoragePath object>
+
+             Â¶
+
+             StoragePath proxy to
+
+                plyer.facades.StoragePath
+
+             plyer.
+
+             stt
+
+             = <plyer.facades.stt.STT object>
+
+             Â¶
+
+             Speech proxy to
+
+                plyer.facades.STT
+
+             plyer.
+
+             temperature
+
+             = <plyer.facades.temperature.Temperature object>
+
+             Â¶
+
+             Temperature proxy to
+
+                plyer.facades.Temperature
+
+             plyer.
+
+             tts
+
+             = <plyer.facades.tts.TTS object>
+
+             Â¶
+
+             TTS proxy to
+
+                plyer.facades.TTS
+
+             plyer.
+
+             uniqueid
+
+             = <plyer.facades.uniqueid.UniqueID object>
+
+             Â¶
+
+             UniqueID proxy to
+
+                plyer.facades.UniqueID
+
+             plyer.
+
+             vibrator
+
+             = <plyer.facades.vibrator.Vibrator object>
+
+             Â¶
+
+             Vibrator proxy to
+
+                plyer.facades.Vibrator
+
+             plyer.
+
+             wifi
+
+             = <plyer.facades.wifi.Wifi object>
+
+             Â¶
+
+             Wifi proxy to
+
+                plyer.facades.Wifi
+
+           Facades
+
+            Â¶
+
+           Interface of all the features available.
+
+             class
+
+             plyer.facades.
+
+             Accelerometer
+
+             Â¶
+
+             Accelerometer facade.
+
+               acceleration
+
+               Â¶
+
+               Property that returns values of the current acceleration
+sensors, as a (x, y, z) tuple. Returns (None, None, None)
+if no data is currently available.
+
+               disable
+
+               (
+
+               )
+
+               Â¶
+
+               Disable the accelerometer sensor.
+
+               enable
+
+               (
+
+               )
+
+               Â¶
+
+               Activate the accelerometer sensor. Throws an error if the
+hardware is not available or not implemented on.
+
+             class
+
+             plyer.facades.
+
+             Audio
+
+             (
+
+             file_path=None
+
+             )
+
+             Â¶
+
+             Audio facade.
+
+               play
+
+               (
+
+               )
+
+               Â¶
+
+               Play current recording.
+
+               start
+
+               (
+
+               )
+
+               Â¶
+
+               Start record.
+
+               stop
+
+               (
+
+               )
+
+               Â¶
+
+               Stop record.
+
+             class
+
+             plyer.facades.
+
+             Barometer
+
+             Â¶
+
+             Barometer facade.
+
+             Barometer sensor is used to measure the ambient air pressure in hPa.
+
+             With method
+
+              enable
+
+             you can turn on pressure sensor and âdisableâ
+method stops the sensor.
+
+             Use property
+
+              pressure
+
+             to get current air pressure in hPa.
+
+               New in version 1.2.5.
+
+             Supported Platforms:: Android
+
+               disable
+
+               (
+
+               )
+
+               Â¶
+
+               Disable barometer sensor.
+
+               enable
+
+               (
+
+               )
+
+               Â¶
+
+               Enable barometer sensor.
+
+               pressure
+
+               Â¶
+
+               Current air pressure in hPa.
+
+             class
+
+             plyer.facades.
+
+             Battery
+
+             Â¶
+
+             Battery info facade.
+
+               get_state
+
+               (
+
+               )
+
+               Â¶
+
+               Public method for filling battery.status via platform-specific
+API in plyer.platforms.
+
+               status
+
+               Â¶
+
+                Property that contains a dict with the following fields:
+
+                     isCharging
+
+                     (bool)
+
+                    : Battery is charging
+
+                     percentage
+
+                     (float)
+
+                    : Battery charge remaining
+
+                  Warning
+
+                  If any of the fields is not readable, it is set as
+None.
+
+             class
+
+             plyer.facades.
+
+             Call
+
+             Â¶
+
+             Call facade.
+
+               dialcall
+
+               (
+
+               )
+
+               Â¶
+
+               Opens dialing interface.
+
+               makecall
+
+               (
+
+               tel
+
+               )
+
+               Â¶
+
+               Make calls using your device.
+
+                  Parameters:
+
+                   tel
+
+                  (
+
+                   number
+
+                  ) â The reciever
+
+             class
+
+             plyer.facades.
+
+             Camera
+
+             Â¶
+
+             Camera facade.
+
+               take_picture
+
+               (
+
+               filename
+
+              ,
+
+               on_complete
+
+               )
+
+               Â¶
+
+               Ask the OS to capture a picture, and store it at filename.
+
+               When the capture is done, on_complete will be called with the filename
+as an argument. If the callback returns True, the filename will be
+unlinked.
+
+                  Parameters:
+
+                     filename
+
+                    (
+
+                     str
+
+                    ) â Name of the image file
+
+                     on_complete
+
+                    (
+
+                     callable
+
+                    ) â Callback that will be called when the operation is
+done
+
+               take_video
+
+               (
+
+               filename
+
+              ,
+
+               on_complete
+
+               )
+
+               Â¶
+
+               Ask the OS to capture a video, and store it at filename.
+
+               When the capture is done, on_complete will be called with the filename
+as an argument. If the callback returns True, the filename will be
+unlinked.
+
+                  Parameters:
+
+                     filename
+
+                    (
+
+                     str
+
+                    ) â Name of the video file
+
+                     on_complete
+
+                    (
+
+                     callable
+
+                    ) â Callback that will be called when the operation is
+done
+
+             class
+
+             plyer.facades.
+
+             Compass
+
+             Â¶
+
+             Compass facade.
+
+               New in version 1.2.0.
+
+               disable
+
+               (
+
+               )
+
+               Â¶
+
+               Disable the compass sensor.
+
+               enable
+
+               (
+
+               )
+
+               Â¶
+
+               Activate the compass sensor.
+
+               field
+
+               Â¶
+
+                 New in version 1.3.1.
+
+               Property that returns values of the current compass
+(magnetic field) sensors, as a (x, y, z) tuple.
+Returns (None, None, None) if no data is currently available.
+
+               field_uncalib
+
+               Â¶
+
+                 New in version 1.3.1.
+
+               Property that returns the current value of Uncalibrated Magnetic Field
+(without hard iron calibration) along with the iron bias estimation
+along the three axes.
+
+               get_field_uncalib
+
+               (
+
+               )
+
+               Â¶
+
+                 New in version 1.3.1.
+
+               orientation
+
+               Â¶
+
+               WARNING:: This property is deprecated after API level 8.
+Use
+
+                compass.field
+
+               instead.
+
+               Property that returns values of the current compass
+(magnetic field) sensors, as a (x, y, z) tuple.
+Returns (None, None, None) if no data is currently available.
+
+             class
+
+             plyer.facades.
+
+             Email
+
+             Â¶
+
+             Email facade.
+
+               send
+
+               (
+
+               recipient=None
+
+              ,
+
+               subject=None
+
+              ,
+
+               text=None
+
+              ,
+
+               create_chooser=None
+
+               )
+
+               Â¶
+
+               Open an email client message send window, prepopulated with the
+given arguments.
+
+                  Parameters:
+
+                     recipient
+
+                    â Recipient of the message (str)
+
+                     subject
+
+                    â Subject of the message (str)
+
+                     text
+
+                    â Main body of the message (str)
+
+                     create_chooser
+
+                    â Whether to display a program chooser to
+handle the message (bool)
+
+                Note
+
+                create_chooser is only supported on Android
+
+             class
+
+             plyer.facades.
+
+             FileChooser
+
+             Â¶
+
+             File Chooser facade.
+
+               choose_dir
+
+               (
+
+               *args
+
+              ,
+
+               **kwargs
+
+               )
+
+               Â¶
+
+               Open the directory chooser. Note that on Windows this is very
+limited. Consider writing your own chooser if you target that
+platform and are planning on using unsupported features.
+
+               open_file
+
+               (
+
+               *args
+
+              ,
+
+               **kwargs
+
+               )
+
+               Â¶
+
+               Open the file chooser in âopenâ mode.
+
+               save_file
+
+               (
+
+               *args
+
+              ,
+
+               **kwargs
+
+               )
+
+               Â¶
+
+               Open the file chooser in âsaveâ mode. Confirmation will be asked
+when a file with the same name already exists.
+
+             class
+
+             plyer.facades.
+
+             GPS
+
+             Â¶
+
+             GPS facade.
+
+               configure
+
+               (
+
+               on_location
+
+              ,
+
+               on_status=None
+
+               )
+
+               Â¶
+
+               Configure the GPS object. This method should be called before
+
+                  start()
+
+               .
+
+                  Parameters:
+
+                     on_location
+
+                    (
+
+                     callable
+
+                     ,
+
+                     multiples keys/value will be passed.
+
+                    ) â Function to call when receiving a new location
+
+                     on_status
+
+                    (
+
+                     callable
+
+                     ,
+
+                     args are "message-type"
+
+                     ,
+
+                     "status"
+
+                    ) â Function to call when a status message is received
+
+                Warning
+
+                The
+
+                 on_location
+
+                and
+
+                 on_status
+
+                callables might be called from
+another thread than the thread used for creating the GPS object.
+
+               start
+
+               (
+
+               minTime=1000
+
+              ,
+
+               minDistance=1
+
+               )
+
+               Â¶
+
+               Start the GPS location updates.
+Expects 2 parameters:
+
+                minTime: milliseconds.  (float)
+minDistance: meters. (float)
+
+               stop
+
+               (
+
+               )
+
+               Â¶
+
+               Stop the GPS location updates.
+
+             class
+
+             plyer.facades.
+
+             Gravity
+
+             Â¶
+
+             Gravity facade.
+
+               New in version 1.2.5.
+
+             Supported Platforms:: Android
+
+               disable
+
+               (
+
+               )
+
+               Â¶
+
+               Disable the gravity sensor.
+
+               enable
+
+               (
+
+               )
+
+               Â¶
+
+               Activate the gravity sensor. Throws an error if the
+hardware is not available or not implemented on.
+
+               gravity
+
+               Â¶
+
+               Property that returns values of the current gravity force
+as a (x, y, z) tuple. Returns (None, None, None)
+if no data is currently available.
+
+             class
+
+             plyer.facades.
+
+             Gyroscope
+
+             Â¶
+
+             Gyroscope facade.
+
+               New in version 1.3.1.
+
+               disable
+
+               (
+
+               )
+
+               Â¶
+
+               Disable the Gyroscope sensor.
+
+               enable
+
+               (
+
+               )
+
+               Â¶
+
+               Activate the Gyroscope sensor.
+
+               orientation
+
+               Â¶
+
+               WARNING:: This property is deprecated after API Level 8.
+Use
+
+                gyroscope.rotation
+
+               instead.
+
+               Property that returns values of the current Gyroscope sensors, as
+a (x, y, z) tuple. Returns (None, None, None) if no data is currently
+available.
+
+               rotation
+
+               Â¶
+
+               Property that returns the rate of rotation around the deviceâs local
+X, Y and Z axis.
+
+               Along x-axis: angular speed around the X axis
+Along y-axis: angular speed around the Y axis
+Along z-axis: angular speed around the Z axis
+
+               Returns (None, None, None) if no data is currently available.
+
+               rotation_uncalib
+
+               Â¶
+
+               Property that returns the current rate of rotation around the X, Y and
+Z axis. An estimation of the drift on each axis is reported as well.
+
+               Along x-axis: angular speed (w/o drift compensation) around the X axis
+Along y-axis: angular speed (w/o drift compensation) around the Y axis
+Along z-axis: angular speed (w/o drift compensation) around the Z axis
+
+               Along x-axis: estimated drift around X axis
+Along y-axis: estimated drift around Y axis
+Along z-axis: estimated drift around Z axis
+
+               Returns (None, None, None, None, None, None) if no data is currently
+available.
+
+             class
+
+             plyer.facades.
+
+             IrBlaster
+
+             Â¶
+
+             Infrared blaster facade.
+
+               exists
+
+               (
+
+               )
+
+               Â¶
+
+               Check if the device has an infrared emitter.
+
+               frequencies
+
+               Â¶
+
+                Property which contains a list of frequency ranges
+
+                 supported by the device in the form:
+
+                  [(from1, to1),
+
+                  (from2, to2),
+â¦
+(fromN, toN)]
+
+               static
+
+               microseconds_to_periods
+
+               (
+
+               frequency
+
+              ,
+
+               pattern
+
+               )
+
+               Â¶
+
+               Convert a pattern from microseconds to period counts.
+
+               static
+
+               periods_to_microseconds
+
+               (
+
+               frequency
+
+              ,
+
+               pattern
+
+               )
+
+               Â¶
+
+               Convert a pattern from period counts to microseconds.
+
+               transmit
+
+               (
+
+               frequency
+
+              ,
+
+               pattern
+
+              ,
+
+               mode='period'
+
+               )
+
+               Â¶
+
+               Transmit an IR sequence.
+
+                  Parameters:
+
+                     frequency
+
+                    : int
+
+                     Carrier frequency for the IR transmission.
+
+                     pattern
+
+                    : list[int]
+
+                     Burst pair pattern to transmit.
+
+                     mode
+
+                    : str, defaults to âperiodâ
+
+                     Specifies the format of the pattern values.
+Can be âperiodâ or âmicrosecondsâ.
+
+             class
+
+             plyer.facades.
+
+             Light
+
+             Â¶
+
+             Light facade.
+
+             Light sensor measures the ambient light level(illumination) in lx.
+Common uses include controlling screen brightness.
+
+             With method
+
+              enable
+
+             you can turn on the sensor and
+
+              disable
+
+             method stops the sensor.
+
+             Use property
+
+              illumination
+
+             to get current illumination in lx.
+
+               New in version 1.2.5.
+
+             Supported Platforms:: Android
+
+               disable
+
+               (
+
+               )
+
+               Â¶
+
+               Disable light sensor.
+
+               enable
+
+               (
+
+               )
+
+               Â¶
+
+               Enable light sensor.
+
+               illumination
+
+               Â¶
+
+               Current illumination in lx.
+
+             class
+
+             plyer.facades.
+
+             Orientation
+
+             Â¶
+
+             Orientation facade.
+
+               set_landscape
+
+               (
+
+               reverse=False
+
+               )
+
+               Â¶
+
+               Rotate the app to a landscape orientation.
+
+                  Parameters:
+
+                   reverse
+
+                  â If True, uses the opposite of the natural
+orientation.
+
+               set_portrait
+
+               (
+
+               reverse=False
+
+               )
+
+               Â¶
+
+               Rotate the app to a portrait orientation.
+
+                  Parameters:
+
+                   reverse
+
+                  â If True, uses the opposite of the natural
+orientation.
+
+               set_sensor
+
+               (
+
+               mode='any'
+
+               )
+
+               Â¶
+
+               Rotate freely following sensor information from the device.
+
+                  Parameters:
+
+                   mode
+
+                  â The rotation mode, should be one of âanyâ (rotate
+to any orientation), âlandscapeâ (choose nearest
+landscape mode) or âportraitâ (choose nearest
+portrait mode). Defaults to âanyâ.
+
+             class
+
+             plyer.facades.
+
+             Notification
+
+             Â¶
+
+             Notification facade.
+
+               notify
+
+               (
+
+               title=''
+
+              ,
+
+               message=''
+
+              ,
+
+               app_name=''
+
+              ,
+
+               app_icon=''
+
+              ,
+
+               timeout=10
+
+              ,
+
+               ticker=''
+
+              ,
+
+               toast=False
+
+               )
+
+               Â¶
+
+               Send a notification.
+
+                  Parameters:
+
+                     title
+
+                    (
+
+                     str
+
+                    ) â Title of the notification
+
+                     message
+
+                    (
+
+                     str
+
+                    ) â Message of the notification
+
+                     app_name
+
+                    (
+
+                     str
+
+                    ) â Name of the app launching this notification
+
+                     app_icon
+
+                    (
+
+                     str
+
+                    ) â Icon to be displayed along with the message
+
+                     timeout
+
+                    (
+
+                     int
+
+                    ) â time to display the message for, defaults to 10
+
+                     ticker
+
+                    (
+
+                     str
+
+                    ) â text to display on status bar as the notification
+arrives
+
+                     toast
+
+                    (
+
+                     bool
+
+                    ) â simple Android message instead of full notification
+
+                Note
+
+                When called on Windows,
+
+                  app_icon
+
+                has to be a path to
+a file in .ICO format.
+
+                 New in version 1.0.0.
+
+                 Changed in version 1.4.0:
+
+                Add âtoastâ keyword argument
+
+             class
+
+             plyer.facades.
+
+             Proximity
+
+             Â¶
+
+             Proximity facade.
+
+             The proximity sensor is commonly used to determine distance whether
+phone is close to your head. Commonly is used when you have a call
+and you stick your phone with your head. Then screen of phone turns off.
+
+             Use method
+
+              enable
+
+             to turn on proximity sensor and method
+
+              disable
+
+             for
+turn off.
+
+             To check if some object (or your head) is near sensor check values from
+property
+
+              proximity
+
+             . It returns
+
+              True
+
+             when object is close.
+
+               New in version 1.2.5.
+
+             Supported Platforms::Android
+
+               disable
+
+               (
+
+               )
+
+               Â¶
+
+               Disable the proximity sensor.
+
+               enable
+
+               (
+
+               )
+
+               Â¶
+
+               Enable the proximity sensor.
+
+               proximity
+
+               Â¶
+
+               Return True or False depending if there is an object or not.
+
+                  Returns:
+
+                  True if there is an object. Otherwise False.
+
+             class
+
+             plyer.facades.
+
+             Sms
+
+             Â¶
+
+             Sms facade.
+
+               send
+
+               (
+
+               recipient
+
+              ,
+
+               message
+
+               )
+
+               Â¶
+
+               Send SMS or open SMS interface.
+
+                  Parameters:
+
+                     recipient
+
+                    (
+
+                     number
+
+                    ) â The reveiver
+
+                     message
+
+                    (
+
+                     str
+
+                    ) â the message
+
+             class
+
+             plyer.facades.
+
+             TTS
+
+             Â¶
+
+             TextToSpeech facade.
+
+               speak
+
+               (
+
+               message=''
+
+               )
+
+               Â¶
+
+               Use text to speech capabilities to speak the message.
+
+                  Parameters:
+
+                   message
+
+                  (
+
+                   str
+
+                  ) â What to speak
+
+             class
+
+             plyer.facades.
+
+             UniqueID
+
+             Â¶
+
+             UniqueID facade.
+
+               get_uid
+
+               (
+
+               )
+
+               Â¶
+
+               Public method for receiving unique ID via platform-specific
+API in plyer.platforms.
+
+               id
+
+               Â¶
+
+               Property that returns the unique id of the platform.
+
+             class
+
+             plyer.facades.
+
+             Vibrator
+
+             Â¶
+
+             Vibration facade.
+
+               cancel
+
+               (
+
+               )
+
+               Â¶
+
+               Cancels any current vibration, and stops the vibrator.
+
+               exists
+
+               (
+
+               )
+
+               Â¶
+
+               Check if the device has a vibrator. Returns True or
+False.
+
+               pattern
+
+               (
+
+               pattern=(0
+
+              ,
+
+               1)
+
+              ,
+
+               repeat=-1
+
+               )
+
+               Â¶
+
+               Ask the vibrator to vibrate with the given pattern, with an
+optional repeat.
+
+                  Parameters:
+
+                     pattern
+
+                    â Pattern to vibrate with. Should be a list of
+times in seconds. The first number is how long to wait
+before vibrating, and subsequent numbers are times to
+vibrate and not vibrate alternately.
+Defaults to
+
+                      [0,
+
+                      1]
+
+                    .
+
+                     repeat
+
+                    â Index at which to repeat the pattern. When the
+vibration pattern reaches this index, it will start again
+from the beginning. Defaults to
+
+                      -1
+
+                    , which means no
+repeat.
+
+               vibrate
+
+               (
+
+               time=1
+
+               )
+
+               Â¶
+
+               Ask the vibrator to vibrate for the given period.
+
+                  Parameters:
+
+                   time
+
+                  â Time to vibrate for, in seconds. Default is 1.
+
+             class
+
+             plyer.facades.
+
+             Wifi
+
+             Â¶
+
+             Wifi Facade.
+
+               connect
+
+               (
+
+               network
+
+              ,
+
+               parameters
+
+              ,
+
+               interface=None
+
+               )
+
+               Â¶
+
+               Method to connect to some network.
+
+               disable
+
+               (
+
+               )
+
+               Â¶
+
+               Wifi interface power state is set to âOFFâ.
+
+               disconnect
+
+               (
+
+               interface=None
+
+               )
+
+               Â¶
+
+               To disconnect from some network.
+
+               enable
+
+               (
+
+               )
+
+               Â¶
+
+               Wifi interface power state is set to âONâ.
+
+               get_available_wifi
+
+               (
+
+               )
+
+               Â¶
+
+               Returns a list of all the available wifi.
+
+               get_network_info
+
+               (
+
+               name
+
+               )
+
+               Â¶
+
+               Return a dictionary of secified network.
+
+               interfaces
+
+               Â¶
+
+               List all available WiFi interfaces.
+
+                 New in version 1.4.0.
+
+               is_connected
+
+               (
+
+               interface=None
+
+               )
+
+               Â¶
+
+               Return connection state of WiFi interface.
+
+                 New in version 1.4.0.
+
+               is_enabled
+
+               (
+
+               )
+
+               Â¶
+
+               Return enabled status of WiFi hardware.
+
+               start_scanning
+
+               (
+
+               interface=None
+
+               )
+
+               Â¶
+
+               Turn on scanning.
+
+             class
+
+             plyer.facades.
+
+             Flash
+
+             Â¶
+
+             Flash facade.
+
+               off
+
+               (
+
+               )
+
+               Â¶
+
+               Deactiavte the flash
+
+               on
+
+               (
+
+               )
+
+               Â¶
+
+               Activate the flash
+
+               release
+
+               (
+
+               )
+
+               Â¶
+
+               Release any access to the Flash / Camera.
+Call this when youâre done using the Flash.
+This will release the Camera, and stop any process.
+
+               Next call to
+
+                _on
+
+               will reactivate it.
+
+             class
+
+             plyer.facades.
+
+             CPU
+
+             Â¶
+
+             Facade providing info about sockets, physical and logical
+number of processors.
+
+               cache
+
+               Â¶
+
+               Property that contains the count of L1, L2, L3 caches in the system
+as a dictionary
+
+                {âL1â: int, âL2â: int, âL3â: int}
+
+               .
+
+               logical
+
+               Â¶
+
+               Property that contains the total number of logical cores
+(max thread count) in the system.
+
+                Note
+
+                 sockets * cores per socket * threads per core
+
+               numa
+
+               Â¶
+
+               Property that contains the count of NUMA nodes in the system.
+
+                Note
+
+                 https://en.wikipedia.org/wiki/Non-uniform_memory_access
+
+               physical
+
+               Â¶
+
+               Property that contains the total number of physical cores
+(max core count) in the system.
+
+                Note
+
+                 sockets * cores per socket
+
+               sockets
+
+               Â¶
+
+               Property that contains the count of CPU sockets.
+
+             class
+
+             plyer.facades.
+
+             Temperature
+
+             Â¶
+
+             Temperature facade.
+
+             Temperature sensor is used to measure the ambient room temperature in
+degrees Celsius (Â°C)
+With method
+
+              enable
+
+             you can turn on temperature sensor and âdisableâ
+method stops the sensor.
+Use property
+
+              temperature
+
+             to get ambient air temperature in degree C.
+
+               New in version 1.2.5.
+
+             Supported Platforms:: Android
+
+               disable
+
+               (
+
+               )
+
+               Â¶
+
+               Disable temperature sensor.
+
+               enable
+
+               (
+
+               )
+
+               Â¶
+
+               Enable temperature sensor.
+
+               temperature
+
+               Â¶
+
+               Current air temperature in degree C.
+
+             class
+
+             plyer.facades.
+
+             Humidity
+
+             Â¶
+
+             Humidity facade.
+Humidity sensor returns value of humidity.
+With method
+
+              enable
+
+             you can turn on Humidity sensor and
+âdisableâ method stops the sensor.
+Use property
+
+              tell
+
+             to get humidity value.
+
+               disable
+
+               (
+
+               )
+
+               Â¶
+
+               Disable Humidity sensor.
+
+               enable
+
+               (
+
+               )
+
+               Â¶
+
+               Enable Humidity sensor.
+
+               tell
+
+               Â¶
+
+               Current humidity
+
+             class
+
+             plyer.facades.
+
+             SpatialOrientation
+
+             Â¶
+
+             Spatial Orientation facade.
+
+             Computes the deviceâs orientation based on the rotation matrix.
+
+               New in version 1.3.1.
+
+               disable_listener
+
+               (
+
+               )
+
+               Â¶
+
+               Disable the orientation sensor.
+
+               enable_listener
+
+               (
+
+               )
+
+               Â¶
+
+               Enable the orientation sensor.
+
+               orientation
+
+               Â¶
+
+               Property that returns values of the current device orientation
+as a (azimuth, pitch, roll) tuple.
+
+               Azimuth, angle of rotation about the -z axis. This value represents the
+angle between the deviceâs y axis and the magnetic north pole.
+The range of values is -Ï to Ï.
+
+               Pitch, angle of rotation about the x axis. This value represents the
+angle between a plane parallel to the deviceâs screen and a plane
+parallel to the ground.
+The range of values is -Ï to Ï.
+
+               Roll, angle of rotation about the y axis. This value represents the
+angle between a plane perpendicular to the deviceâs screen and a plane
+perpendicular to the ground.
+The range of values is -Ï/2 to Ï/2.
+
+               Returns (None, None, None) if no data is currently available.
+
+               Supported Platforms:: Android
+
+             class
+
+             plyer.facades.
+
+             Brightness
+
+             Â¶
+
+             Brightness facade.
+
+               current_level
+
+               (
+
+               )
+
+               Â¶
+
+               Know the current level of deviceâs brightness.
+
+               set_level
+
+               (
+
+               level
+
+               )
+
+               Â¶
+
+               Adjust the brightness of the screen.
+Minimum brightnesss level:: 1
+Maximum brightness level:: 100
+
+                  Parameters:
+
+                   level
+
+                  (
+
+                   int
+
+                  ) â New level of brightness between 1 and 100
+
+             class
+
+             plyer.facades.
+
+             Processors
+
+             Â¶
+
+             Number of Processors info facade.
+
+               status
+
+               Â¶
+
+                Property that contains a dict with the following fields:
+
+                     Number_of_Processors
+
+                     (int)
+
+                    : Number of Processors in
+
+                   the system
+
+                  Warning
+
+                  If any of the fields is not readable, it is set as
+None.
+
+             class
+
+             plyer.facades.
+
+             StoragePath
+
+             Â¶
+
+             StoragePath facade.
+
+               get_application_dir
+
+               (
+
+               )
+
+               Â¶
+
+               Get the path of the directory holding application files.
+
+               get_documents_dir
+
+               (
+
+               )
+
+               Â¶
+
+               Get the path of standard directory in which to place documents that
+have been created by the user.
+
+               get_downloads_dir
+
+               (
+
+               )
+
+               Â¶
+
+               Get the path of standard directory in which to place files that have
+been downloaded by the user.
+
+               get_external_storage_dir
+
+               (
+
+               )
+
+               Â¶
+
+               Get the path of primary shared or external storage directory.
+
+               get_home_dir
+
+               (
+
+               )
+
+               Â¶
+
+               Get the path of home directory of current user.
+
+               get_music_dir
+
+               (
+
+               )
+
+               Â¶
+
+               Get the path of standard directory in which to place any audio files
+that should be in the regular list of music for the user.
+
+               get_pictures_dir
+
+               (
+
+               )
+
+               Â¶
+
+               Standard directory in which to place pictures that are available to
+the user.
+
+               get_root_dir
+
+               (
+
+               )
+
+               Â¶
+
+               Get the path of root of the âsystemâ partition holding the core OS.
+
+               get_sdcard_dir
+
+               (
+
+               )
+
+               Â¶
+
+               Get the path of external SD card.
+
+                 New in version 1.4.0.
+
+               get_videos_dir
+
+               (
+
+               )
+
+               Â¶
+
+               Get the path of standard directory in which to place videos that are
+available to the user.
+
+             class
+
+             plyer.facades.
+
+             Keystore
+
+             Â¶
+
+             Keyring facade
+
+               New in version x.x.x.
+
+             class
+
+             plyer.facades.
+
+             Bluetooth
+
+             Â¶
+
+             Bluetooth facade.
+
+               info
+
+               Â¶
+
+               Property that returns the info (currently status) of the bluetooth.
+
+             class
+
+             plyer.facades.
+
+             Screenshot
+
+             (
+
+             file_path=None
+
+             )
+
+             Â¶
+
+             Screenshot facade.
+
+             class
+
+             plyer.facades.
+
+             STT
+
+             Â¶
+
+             Speech to text facade.
+
+               errors
+
+               = []
+
+               Â¶
+
+               List of errors found while listening.
+
+               exist
+
+               (
+
+               )
+
+               Â¶
+
+               Returns a boolean for speech recognition availability.
+
+               language
+
+               Â¶
+
+               Return current language.
+
+               listening
+
+               = False
+
+               Â¶
+
+               Current state of listening.
+
+               partial_results
+
+               = []
+
+               Â¶
+
+               List of results found while the listener is still being active.
+
+               prefer_offline
+
+               = True
+
+               Â¶
+
+               Preference whether to use offline language package necessary for
+each platform dependant implementation or online API.
+
+               results
+
+               = []
+
+               Â¶
+
+               List of sentences found while listening. It may consist of many similar
+and possible sentences that was recognition program.
+
+               start
+
+               (
+
+               )
+
+               Â¶
+
+               Start listening.
+
+               stop
+
+               (
+
+               )
+
+               Â¶
+
+               Stop listening.
+
+               supported_languages
+
+               Â¶
+
+               Return list of supported languages used in recognition.
+
+          Indices and tables
+
+           Â¶
+
+             Index
+
+             Module Index
+
+             Search Page
+
+         © Copyright 2013, Mathieu Virbel, Akshay Aurora, Gabriel Petier, Ben Rousch
+
+          Revision
+
+           cb77e461
+
+          .
+
+       Built with
+
+        Sphinx
+
+       using a
+
+        theme
+
+       provided by
+
+        Read the Docs
+
+       .
+
+
+
+文件名:docs/genindex.html
+文件内容:
+
+       Plyer
+
+       2.0.0
+
+      Plyer
+
+          Docs
+
+         »
+
+         Index
+
+          Edit on GitHub
+
+         Index
+
+           A
+
+         |
+
+           B
+
+         |
+
+           C
+
+         |
+
+           D
+
+         |
+
+           E
+
+         |
+
+           F
+
+         |
+
+           G
+
+         |
+
+           H
+
+         |
+
+           I
+
+         |
+
+           K
+
+         |
+
+           L
+
+         |
+
+           M
+
+         |
+
+           N
+
+         |
+
+           O
+
+         |
+
+           P
+
+         |
+
+           R
+
+         |
+
+           S
+
+         |
+
+           T
+
+         |
+
+           U
+
+         |
+
+           V
+
+         |
+
+           W
+
+         A
+
+              acceleration (plyer.facades.Accelerometer attribute)
+
+              Accelerometer (class in plyer.facades)
+
+              accelerometer (in module plyer)
+
+              Audio (class in plyer.facades)
+
+              audio (in module plyer)
+
+         B
+
+              Barometer (class in plyer.facades)
+
+              barometer (in module plyer)
+
+              Battery (class in plyer.facades)
+
+              battery (in module plyer)
+
+              Bluetooth (class in plyer.facades)
+
+              bluetooth (in module plyer)
+
+              Brightness (class in plyer.facades)
+
+              brightness (in module plyer)
+
+         C
+
+              cache (plyer.facades.CPU attribute)
+
+              Call (class in plyer.facades)
+
+              call (in module plyer)
+
+              Camera (class in plyer.facades)
+
+              camera (in module plyer)
+
+              cancel() (plyer.facades.Vibrator method)
+
+              choose_dir() (plyer.facades.FileChooser method)
+
+              Compass (class in plyer.facades)
+
+              compass (in module plyer)
+
+              configure() (plyer.facades.GPS method)
+
+              connect() (plyer.facades.Wifi method)
+
+              CPU (class in plyer.facades)
+
+              cpu (in module plyer)
+
+              current_level() (plyer.facades.Brightness method)
+
+         D
+
+              dialcall() (plyer.facades.Call method)
+
+              disable() (plyer.facades.Accelerometer method)
+
+                (plyer.facades.Barometer method)
+
+                (plyer.facades.Compass method)
+
+                (plyer.facades.Gravity method)
+
+                (plyer.facades.Gyroscope method)
+
+                (plyer.facades.Humidity method)
+
+                (plyer.facades.Light method)
+
+                (plyer.facades.Proximity method)
+
+                (plyer.facades.Temperature method)
+
+                (plyer.facades.Wifi method)
+
+              disable_listener() (plyer.facades.SpatialOrientation method)
+
+              disconnect() (plyer.facades.Wifi method)
+
+         E
+
+              Email (class in plyer.facades)
+
+              email (in module plyer)
+
+              enable() (plyer.facades.Accelerometer method)
+
+                (plyer.facades.Barometer method)
+
+                (plyer.facades.Compass method)
+
+                (plyer.facades.Gravity method)
+
+                (plyer.facades.Gyroscope method)
+
+                (plyer.facades.Humidity method)
+
+                (plyer.facades.Light method)
+
+                (plyer.facades.Proximity method)
+
+                (plyer.facades.Temperature method)
+
+                (plyer.facades.Wifi method)
+
+              enable_listener() (plyer.facades.SpatialOrientation method)
+
+              errors (plyer.facades.STT attribute)
+
+              exist() (plyer.facades.STT method)
+
+              exists() (plyer.facades.IrBlaster method)
+
+                (plyer.facades.Vibrator method)
+
+         F
+
+              field (plyer.facades.Compass attribute)
+
+              field_uncalib (plyer.facades.Compass attribute)
+
+              FileChooser (class in plyer.facades)
+
+              filechooser (in module plyer)
+
+              Flash (class in plyer.facades)
+
+              flash (in module plyer)
+
+              frequencies (plyer.facades.IrBlaster attribute)
+
+         G
+
+              get_application_dir() (plyer.facades.StoragePath method)
+
+              get_available_wifi() (plyer.facades.Wifi method)
+
+              get_documents_dir() (plyer.facades.StoragePath method)
+
+              get_downloads_dir() (plyer.facades.StoragePath method)
+
+              get_external_storage_dir() (plyer.facades.StoragePath method)
+
+              get_field_uncalib() (plyer.facades.Compass method)
+
+              get_home_dir() (plyer.facades.StoragePath method)
+
+              get_music_dir() (plyer.facades.StoragePath method)
+
+              get_network_info() (plyer.facades.Wifi method)
+
+              get_pictures_dir() (plyer.facades.StoragePath method)
+
+              get_root_dir() (plyer.facades.StoragePath method)
+
+              get_sdcard_dir() (plyer.facades.StoragePath method)
+
+              get_state() (plyer.facades.Battery method)
+
+              get_uid() (plyer.facades.UniqueID method)
+
+              get_videos_dir() (plyer.facades.StoragePath method)
+
+              GPS (class in plyer.facades)
+
+              gps (in module plyer)
+
+              Gravity (class in plyer.facades)
+
+              gravity (in module plyer)
+
+                (plyer.facades.Gravity attribute)
+
+              Gyroscope (class in plyer.facades)
+
+              gyroscope (in module plyer)
+
+         H
+
+              Humidity (class in plyer.facades)
+
+              humidity (in module plyer)
+
+         I
+
+              id (plyer.facades.UniqueID attribute)
+
+              illumination (plyer.facades.Light attribute)
+
+              info (plyer.facades.Bluetooth attribute)
+
+              interfaces (plyer.facades.Wifi attribute)
+
+              IrBlaster (class in plyer.facades)
+
+              irblaster (in module plyer)
+
+              is_connected() (plyer.facades.Wifi method)
+
+              is_enabled() (plyer.facades.Wifi method)
+
+         K
+
+              Keystore (class in plyer.facades)
+
+              keystore (in module plyer)
+
+         L
+
+              language (plyer.facades.STT attribute)
+
+              Light (class in plyer.facades)
+
+              light (in module plyer)
+
+              listening (plyer.facades.STT attribute)
+
+              logical (plyer.facades.CPU attribute)
+
+         M
+
+              makecall() (plyer.facades.Call method)
+
+              microseconds_to_periods() (plyer.facades.IrBlaster static method)
+
+         N
+
+              Notification (class in plyer.facades)
+
+              notification (in module plyer)
+
+              notify() (plyer.facades.Notification method)
+
+              numa (plyer.facades.CPU attribute)
+
+         O
+
+              off() (plyer.facades.Flash method)
+
+              on() (plyer.facades.Flash method)
+
+              open_file() (plyer.facades.FileChooser method)
+
+              Orientation (class in plyer.facades)
+
+              orientation (in module plyer)
+
+                (plyer.facades.Compass attribute)
+
+                (plyer.facades.Gyroscope attribute)
+
+                (plyer.facades.SpatialOrientation attribute)
+
+         P
+
+              partial_results (plyer.facades.STT attribute)
+
+              pattern() (plyer.facades.Vibrator method)
+
+              periods_to_microseconds() (plyer.facades.IrBlaster static method)
+
+              physical (plyer.facades.CPU attribute)
+
+              play() (plyer.facades.Audio method)
+
+              plyer (module)
+
+              plyer.facades (module)
+
+              prefer_offline (plyer.facades.STT attribute)
+
+              pressure (plyer.facades.Barometer attribute)
+
+              Processors (class in plyer.facades)
+
+              processors (in module plyer)
+
+              Proximity (class in plyer.facades)
+
+              proximity (in module plyer)
+
+                (plyer.facades.Proximity attribute)
+
+         R
+
+              release() (plyer.facades.Flash method)
+
+              results (plyer.facades.STT attribute)
+
+              rotation (plyer.facades.Gyroscope attribute)
+
+              rotation_uncalib (plyer.facades.Gyroscope attribute)
+
+         S
+
+              save_file() (plyer.facades.FileChooser method)
+
+              Screenshot (class in plyer.facades)
+
+              screenshot (in module plyer)
+
+              send() (plyer.facades.Email method)
+
+                (plyer.facades.Sms method)
+
+              set_landscape() (plyer.facades.Orientation method)
+
+              set_level() (plyer.facades.Brightness method)
+
+              set_portrait() (plyer.facades.Orientation method)
+
+              set_sensor() (plyer.facades.Orientation method)
+
+              Sms (class in plyer.facades)
+
+              sms (in module plyer)
+
+              sockets (plyer.facades.CPU attribute)
+
+              SpatialOrientation (class in plyer.facades)
+
+              spatialorientation (in module plyer)
+
+              speak() (plyer.facades.TTS method)
+
+              start() (plyer.facades.Audio method)
+
+                (plyer.facades.GPS method)
+
+                (plyer.facades.STT method)
+
+              start_scanning() (plyer.facades.Wifi method)
+
+              status (plyer.facades.Battery attribute)
+
+                (plyer.facades.Processors attribute)
+
+              stop() (plyer.facades.Audio method)
+
+                (plyer.facades.GPS method)
+
+                (plyer.facades.STT method)
+
+              StoragePath (class in plyer.facades)
+
+              storagepath (in module plyer)
+
+              STT (class in plyer.facades)
+
+              stt (in module plyer)
+
+              supported_languages (plyer.facades.STT attribute)
+
+         T
+
+              take_picture() (plyer.facades.Camera method)
+
+              take_video() (plyer.facades.Camera method)
+
+              tell (plyer.facades.Humidity attribute)
+
+              Temperature (class in plyer.facades)
+
+              temperature (in module plyer)
+
+                (plyer.facades.Temperature attribute)
+
+              transmit() (plyer.facades.IrBlaster method)
+
+              TTS (class in plyer.facades)
+
+              tts (in module plyer)
+
+         U
+
+              UniqueID (class in plyer.facades)
+
+              uniqueid (in module plyer)
+
+         V
+
+              vibrate() (plyer.facades.Vibrator method)
+
+              Vibrator (class in plyer.facades)
+
+              vibrator (in module plyer)
+
+         W
+
+              Wifi (class in plyer.facades)
+
+              wifi (in module plyer)
+
+         © Copyright 2013, Mathieu Virbel, Akshay Aurora, Gabriel Petier, Ben Rousch
+
+          Revision
+
+           cb77e461
+
+          .
+
+       Built with
+
+        Sphinx
+
+       using a
+
+        theme
+
+       provided by
+
+        Read the Docs
+
+       .
+
+
+
+文件名:docs/py-modindex.html
+文件内容:
+
+       Plyer
+
+       2.0.0
+
+      Plyer
+
+          Docs
+
+         »
+
+         Python Module Index
+
+         Python Module Index
+
+           p
+
+            p
+
+             plyer
+
+             plyer.facades
+
+         © Copyright 2013, Mathieu Virbel, Akshay Aurora, Gabriel Petier, Ben Rousch
+
+          Revision
+
+           cb77e461
+
+          .
+
+       Built with
+
+        Sphinx
+
+       using a
+
+        theme
+
+       provided by
+
+        Read the Docs
+
+       .
+
+
+
+文件名:docs/search.html
+文件内容:
+
+       Plyer
+
+       2.0.0
+
+      Plyer
+
+          Docs
+
+         »
+
+         Search
+
+          Edit on GitHub
+
+           Please activate JavaScript to enable the search
+      functionality.
+
+         © Copyright 2013, Mathieu Virbel, Akshay Aurora, Gabriel Petier, Ben Rousch
+
+          Revision
+
+           cb77e461
+
+          .
+
+       Built with
+
+        Sphinx
+
+       using a
+
+        theme
+
+       provided by
+
+        Read the Docs
+
+       .
+
+
+
+文件名:docs/index.html
+文件内容:
+
+       Plyer
+
+       2.0.0
+
+          Welcome to Plyer
+
+            Plyer
+
+            Facades
+
+          Indices and tables
+
+      Plyer
+
+          Docs
+
+         »
+
+         Welcome to Plyer
+
+          Edit on GitHub
+
+          Welcome to Plyer
+
+           Â¶
+
+          Plyer is a Python library for accessing features of your hardware / platforms.
+
+           Plyer
+
+            Â¶
+
+             plyer.
+
+             accelerometer
+
+             = <plyer.platforms.linux.accelerometer.LinuxAccelerometer object>
+
+             Â¶
+
+             Accelerometer proxy to
+
+                plyer.facades.Accelerometer
+
+             plyer.
+
+             audio
+
+             = <plyer.facades.audio.Audio object>
+
+             Â¶
+
+             Audio proxy to
+
+                plyer.facades.Audio
+
+             plyer.
+
+             barometer
+
+             = <plyer.facades.barometer.Barometer object>
+
+             Â¶
+
+             Barometer proxy to
+
+                plyer.facades.Barometer
+
+             plyer.
+
+             battery
+
+             = <plyer.facades.battery.Battery object>
+
+             Â¶
+
+             Battery proxy to
+
+                plyer.facades.Battery
+
+             plyer.
+
+             bluetooth
+
+             = <plyer.facades.bluetooth.Bluetooth object>
+
+             Â¶
+
+             Bluetooth proxy to
+
+                plyer.facades.Bluetooth
+
+             plyer.
+
+             brightness
+
+             = <plyer.facades.brightness.Brightness object>
+
+             Â¶
+
+             Brightness proxy to
+
+                plyer.facades.Brightness
+
+             plyer.
+
+             call
+
+             = <plyer.facades.call.Call object>
+
+             Â¶
+
+             Call proxy to  :class
+
+              plyer.facades.Call
+
+             plyer.
+
+             camera
+
+             = <plyer.facades.camera.Camera object>
+
+             Â¶
+
+             Camera proxy to
+
+                plyer.facades.Camera
+
+             plyer.
+
+             compass
+
+             = <plyer.facades.compass.Compass object>
+
+             Â¶
+
+             Compass proxy to
+
+                plyer.facades.Compass
+
+             plyer.
+
+             cpu
+
+             = <plyer.platforms.linux.cpu.LinuxCPU object>
+
+             Â¶
+
+             Processors proxy to
+
+                plyer.facades.CPU
+
+             plyer.
+
+             email
+
+             = <plyer.platforms.linux.email.LinuxEmail object>
+
+             Â¶
+
+             Email proxy to
+
+                plyer.facades.Email
+
+             plyer.
+
+             filechooser
+
+             = <plyer.platforms.linux.filechooser.LinuxFileChooser object>
+
+             Â¶
+
+             FileChooser proxy to
+
+                plyer.facades.FileChooser
+
+             plyer.
+
+             flash
+
+             = <plyer.facades.flash.Flash object>
+
+             Â¶
+
+             Flash proxy to
+
+                plyer.facades.Flash
+
+             plyer.
+
+             gps
+
+             = <plyer.facades.gps.GPS object>
+
+             Â¶
+
+             GPS proxy to
+
+                plyer.facades.GPS
+
+             plyer.
+
+             gravity
+
+             = <plyer.facades.gravity.Gravity object>
+
+             Â¶
+
+             Gravity proxy to
+
+                plyer.facades.Gravity
+
+             plyer.
+
+             gyroscope
+
+             = <plyer.facades.gyroscope.Gyroscope object>
+
+             Â¶
+
+             Gyroscope proxy to
+
+                plyer.facades.Gyroscope
+
+             plyer.
+
+             humidity
+
+             = <plyer.facades.humidity.Humidity object>
+
+             Â¶
+
+             Humidity proxy to
+
+                plyer.facades.Humidity
+
+             plyer.
+
+             irblaster
+
+             = <plyer.facades.irblaster.IrBlaster object>
+
+             Â¶
+
+             IrBlaster proxy to
+
+                plyer.facades.IrBlaster
+
+             plyer.
+
+             keystore
+
+             = <plyer.facades.keystore.Keystore object>
+
+             Â¶
+
+             Keyring proxy to :class::
+
+              plyer.facades.Keyring
+
+             plyer.
+
+             light
+
+             = <plyer.facades.light.Light object>
+
+             Â¶
+
+             Light proxy to
+
+                plyer.facades.Light
+
+             plyer.
+
+             notification
+
+             = <plyer.facades.notification.Notification object>
+
+             Â¶
+
+             Notification proxy to
+
+                plyer.facades.Notification
+
+             plyer.
+
+             orientation
+
+             = <plyer.platforms.linux.orientation.LinuxOrientation object>
+
+             Â¶
+
+             Orientation proxy to
+
+                plyer.facades.Orientation
+
+             plyer.
+
+             processors
+
+             = <plyer.platforms.linux.processors.LinuxProcessors object>
+
+             Â¶
+
+             Processors proxy to
+
+                plyer.facades.Processors
+
+             plyer.
+
+             proximity
+
+             = <plyer.facades.proximity.Proximity object>
+
+             Â¶
+
+             Proximity proxy to
+
+                plyer.facades.Proximity
+
+             plyer.
+
+             screenshot
+
+             = <plyer.facades.screenshot.Screenshot object>
+
+             Â¶
+
+             Screenshot proxy to
+
+                plyer.facades.Screenshot
+
+             plyer.
+
+             sms
+
+             = <plyer.facades.sms.Sms object>
+
+             Â¶
+
+             Sms proxy to
+
+                plyer.facades.Sms
+
+             plyer.
+
+             spatialorientation
+
+             = <plyer.facades.spatialorientation.SpatialOrientation object>
+
+             Â¶
+
+             SpatialOrientation proxy to
+
+                plyer.facades.SpatialOrientation
+
+             plyer.
+
+             storagepath
+
+             = <plyer.platforms.linux.storagepath.LinuxStoragePath object>
+
+             Â¶
+
+             StoragePath proxy to
+
+                plyer.facades.StoragePath
+
+             plyer.
+
+             stt
+
+             = <plyer.facades.stt.STT object>
+
+             Â¶
+
+             Speech proxy to
+
+                plyer.facades.STT
+
+             plyer.
+
+             temperature
+
+             = <plyer.facades.temperature.Temperature object>
+
+             Â¶
+
+             Temperature proxy to
+
+                plyer.facades.Temperature
+
+             plyer.
+
+             tts
+
+             = <plyer.facades.tts.TTS object>
+
+             Â¶
+
+             TTS proxy to
+
+                plyer.facades.TTS
+
+             plyer.
+
+             uniqueid
+
+             = <plyer.facades.uniqueid.UniqueID object>
+
+             Â¶
+
+             UniqueID proxy to
+
+                plyer.facades.UniqueID
+
+             plyer.
+
+             vibrator
+
+             = <plyer.facades.vibrator.Vibrator object>
+
+             Â¶
+
+             Vibrator proxy to
+
+                plyer.facades.Vibrator
+
+             plyer.
+
+             wifi
+
+             = <plyer.facades.wifi.Wifi object>
+
+             Â¶
+
+             Wifi proxy to
+
+                plyer.facades.Wifi
+
+           Facades
+
+            Â¶
+
+           Interface of all the features available.
+
+             class
+
+             plyer.facades.
+
+             Accelerometer
+
+             Â¶
+
+             Accelerometer facade.
+
+               acceleration
+
+               Â¶
+
+               Property that returns values of the current acceleration
+sensors, as a (x, y, z) tuple. Returns (None, None, None)
+if no data is currently available.
+
+               disable
+
+               (
+
+               )
+
+               Â¶
+
+               Disable the accelerometer sensor.
+
+               enable
+
+               (
+
+               )
+
+               Â¶
+
+               Activate the accelerometer sensor. Throws an error if the
+hardware is not available or not implemented on.
+
+             class
+
+             plyer.facades.
+
+             Audio
+
+             (
+
+             file_path=None
+
+             )
+
+             Â¶
+
+             Audio facade.
+
+               play
+
+               (
+
+               )
+
+               Â¶
+
+               Play current recording.
+
+               start
+
+               (
+
+               )
+
+               Â¶
+
+               Start record.
+
+               stop
+
+               (
+
+               )
+
+               Â¶
+
+               Stop record.
+
+             class
+
+             plyer.facades.
+
+             Barometer
+
+             Â¶
+
+             Barometer facade.
+
+             Barometer sensor is used to measure the ambient air pressure in hPa.
+
+             With method
+
+              enable
+
+             you can turn on pressure sensor and âdisableâ
+method stops the sensor.
+
+             Use property
+
+              pressure
+
+             to get current air pressure in hPa.
+
+               New in version 1.2.5.
+
+             Supported Platforms:: Android
+
+               disable
+
+               (
+
+               )
+
+               Â¶
+
+               Disable barometer sensor.
+
+               enable
+
+               (
+
+               )
+
+               Â¶
+
+               Enable barometer sensor.
+
+               pressure
+
+               Â¶
+
+               Current air pressure in hPa.
+
+             class
+
+             plyer.facades.
+
+             Battery
+
+             Â¶
+
+             Battery info facade.
+
+               get_state
+
+               (
+
+               )
+
+               Â¶
+
+               Public method for filling battery.status via platform-specific
+API in plyer.platforms.
+
+               status
+
+               Â¶
+
+                Property that contains a dict with the following fields:
+
+                     isCharging
+
+                     (bool)
+
+                    : Battery is charging
+
+                     percentage
+
+                     (float)
+
+                    : Battery charge remaining
+
+                  Warning
+
+                  If any of the fields is not readable, it is set as
+None.
+
+             class
+
+             plyer.facades.
+
+             Call
+
+             Â¶
+
+             Call facade.
+
+               dialcall
+
+               (
+
+               )
+
+               Â¶
+
+               Opens dialing interface.
+
+               makecall
+
+               (
+
+               tel
+
+               )
+
+               Â¶
+
+               Make calls using your device.
+
+                  Parameters:
+
+                   tel
+
+                  (
+
+                   number
+
+                  ) â The reciever
+
+             class
+
+             plyer.facades.
+
+             Camera
+
+             Â¶
+
+             Camera facade.
+
+               take_picture
+
+               (
+
+               filename
+
+              ,
+
+               on_complete
+
+               )
+
+               Â¶
+
+               Ask the OS to capture a picture, and store it at filename.
+
+               When the capture is done, on_complete will be called with the filename
+as an argument. If the callback returns True, the filename will be
+unlinked.
+
+                  Parameters:
+
+                     filename
+
+                    (
+
+                     str
+
+                    ) â Name of the image file
+
+                     on_complete
+
+                    (
+
+                     callable
+
+                    ) â Callback that will be called when the operation is
+done
+
+               take_video
+
+               (
+
+               filename
+
+              ,
+
+               on_complete
+
+               )
+
+               Â¶
+
+               Ask the OS to capture a video, and store it at filename.
+
+               When the capture is done, on_complete will be called with the filename
+as an argument. If the callback returns True, the filename will be
+unlinked.
+
+                  Parameters:
+
+                     filename
+
+                    (
+
+                     str
+
+                    ) â Name of the video file
+
+                     on_complete
+
+                    (
+
+                     callable
+
+                    ) â Callback that will be called when the operation is
+done
+
+             class
+
+             plyer.facades.
+
+             Compass
+
+             Â¶
+
+             Compass facade.
+
+               New in version 1.2.0.
+
+               disable
+
+               (
+
+               )
+
+               Â¶
+
+               Disable the compass sensor.
+
+               enable
+
+               (
+
+               )
+
+               Â¶
+
+               Activate the compass sensor.
+
+               field
+
+               Â¶
+
+                 New in version 1.3.1.
+
+               Property that returns values of the current compass
+(magnetic field) sensors, as a (x, y, z) tuple.
+Returns (None, None, None) if no data is currently available.
+
+               field_uncalib
+
+               Â¶
+
+                 New in version 1.3.1.
+
+               Property that returns the current value of Uncalibrated Magnetic Field
+(without hard iron calibration) along with the iron bias estimation
+along the three axes.
+
+               get_field_uncalib
+
+               (
+
+               )
+
+               Â¶
+
+                 New in version 1.3.1.
+
+               orientation
+
+               Â¶
+
+               WARNING:: This property is deprecated after API level 8.
+Use
+
+                compass.field
+
+               instead.
+
+               Property that returns values of the current compass
+(magnetic field) sensors, as a (x, y, z) tuple.
+Returns (None, None, None) if no data is currently available.
+
+             class
+
+             plyer.facades.
+
+             Email
+
+             Â¶
+
+             Email facade.
+
+               send
+
+               (
+
+               recipient=None
+
+              ,
+
+               subject=None
+
+              ,
+
+               text=None
+
+              ,
+
+               create_chooser=None
+
+               )
+
+               Â¶
+
+               Open an email client message send window, prepopulated with the
+given arguments.
+
+                  Parameters:
+
+                     recipient
+
+                    â Recipient of the message (str)
+
+                     subject
+
+                    â Subject of the message (str)
+
+                     text
+
+                    â Main body of the message (str)
+
+                     create_chooser
+
+                    â Whether to display a program chooser to
+handle the message (bool)
+
+                Note
+
+                create_chooser is only supported on Android
+
+             class
+
+             plyer.facades.
+
+             FileChooser
+
+             Â¶
+
+             File Chooser facade.
+
+               choose_dir
+
+               (
+
+               *args
+
+              ,
+
+               **kwargs
+
+               )
+
+               Â¶
+
+               Open the directory chooser. Note that on Windows this is very
+limited. Consider writing your own chooser if you target that
+platform and are planning on using unsupported features.
+
+               open_file
+
+               (
+
+               *args
+
+              ,
+
+               **kwargs
+
+               )
+
+               Â¶
+
+               Open the file chooser in âopenâ mode.
+
+               save_file
+
+               (
+
+               *args
+
+              ,
+
+               **kwargs
+
+               )
+
+               Â¶
+
+               Open the file chooser in âsaveâ mode. Confirmation will be asked
+when a file with the same name already exists.
+
+             class
+
+             plyer.facades.
+
+             GPS
+
+             Â¶
+
+             GPS facade.
+
+               configure
+
+               (
+
+               on_location
+
+              ,
+
+               on_status=None
+
+               )
+
+               Â¶
+
+               Configure the GPS object. This method should be called before
+
+                  start()
+
+               .
+
+                  Parameters:
+
+                     on_location
+
+                    (
+
+                     callable
+
+                     ,
+
+                     multiples keys/value will be passed.
+
+                    ) â Function to call when receiving a new location
+
+                     on_status
+
+                    (
+
+                     callable
+
+                     ,
+
+                     args are "message-type"
+
+                     ,
+
+                     "status"
+
+                    ) â Function to call when a status message is received
+
+                Warning
+
+                The
+
+                 on_location
+
+                and
+
+                 on_status
+
+                callables might be called from
+another thread than the thread used for creating the GPS object.
+
+               start
+
+               (
+
+               minTime=1000
+
+              ,
+
+               minDistance=1
+
+               )
+
+               Â¶
+
+               Start the GPS location updates.
+Expects 2 parameters:
+
+                minTime: milliseconds.  (float)
+minDistance: meters. (float)
+
+               stop
+
+               (
+
+               )
+
+               Â¶
+
+               Stop the GPS location updates.
+
+             class
+
+             plyer.facades.
+
+             Gravity
+
+             Â¶
+
+             Gravity facade.
+
+               New in version 1.2.5.
+
+             Supported Platforms:: Android
+
+               disable
+
+               (
+
+               )
+
+               Â¶
+
+               Disable the gravity sensor.
+
+               enable
+
+               (
+
+               )
+
+               Â¶
+
+               Activate the gravity sensor. Throws an error if the
+hardware is not available or not implemented on.
+
+               gravity
+
+               Â¶
+
+               Property that returns values of the current gravity force
+as a (x, y, z) tuple. Returns (None, None, None)
+if no data is currently available.
+
+             class
+
+             plyer.facades.
+
+             Gyroscope
+
+             Â¶
+
+             Gyroscope facade.
+
+               New in version 1.3.1.
+
+               disable
+
+               (
+
+               )
+
+               Â¶
+
+               Disable the Gyroscope sensor.
+
+               enable
+
+               (
+
+               )
+
+               Â¶
+
+               Activate the Gyroscope sensor.
+
+               orientation
+
+               Â¶
+
+               WARNING:: This property is deprecated after API Level 8.
+Use
+
+                gyroscope.rotation
+
+               instead.
+
+               Property that returns values of the current Gyroscope sensors, as
+a (x, y, z) tuple. Returns (None, None, None) if no data is currently
+available.
+
+               rotation
+
+               Â¶
+
+               Property that returns the rate of rotation around the deviceâs local
+X, Y and Z axis.
+
+               Along x-axis: angular speed around the X axis
+Along y-axis: angular speed around the Y axis
+Along z-axis: angular speed around the Z axis
+
+               Returns (None, None, None) if no data is currently available.
+
+               rotation_uncalib
+
+               Â¶
+
+               Property that returns the current rate of rotation around the X, Y and
+Z axis. An estimation of the drift on each axis is reported as well.
+
+               Along x-axis: angular speed (w/o drift compensation) around the X axis
+Along y-axis: angular speed (w/o drift compensation) around the Y axis
+Along z-axis: angular speed (w/o drift compensation) around the Z axis
+
+               Along x-axis: estimated drift around X axis
+Along y-axis: estimated drift around Y axis
+Along z-axis: estimated drift around Z axis
+
+               Returns (None, None, None, None, None, None) if no data is currently
+available.
+
+             class
+
+             plyer.facades.
+
+             IrBlaster
+
+             Â¶
+
+             Infrared blaster facade.
+
+               exists
+
+               (
+
+               )
+
+               Â¶
+
+               Check if the device has an infrared emitter.
+
+               frequencies
+
+               Â¶
+
+                Property which contains a list of frequency ranges
+
+                 supported by the device in the form:
+
+                  [(from1, to1),
+
+                  (from2, to2),
+â¦
+(fromN, toN)]
+
+               static
+
+               microseconds_to_periods
+
+               (
+
+               frequency
+
+              ,
+
+               pattern
+
+               )
+
+               Â¶
+
+               Convert a pattern from microseconds to period counts.
+
+               static
+
+               periods_to_microseconds
+
+               (
+
+               frequency
+
+              ,
+
+               pattern
+
+               )
+
+               Â¶
+
+               Convert a pattern from period counts to microseconds.
+
+               transmit
+
+               (
+
+               frequency
+
+              ,
+
+               pattern
+
+              ,
+
+               mode='period'
+
+               )
+
+               Â¶
+
+               Transmit an IR sequence.
+
+                  Parameters:
+
+                     frequency
+
+                    : int
+
+                     Carrier frequency for the IR transmission.
+
+                     pattern
+
+                    : list[int]
+
+                     Burst pair pattern to transmit.
+
+                     mode
+
+                    : str, defaults to âperiodâ
+
+                     Specifies the format of the pattern values.
+Can be âperiodâ or âmicrosecondsâ.
+
+             class
+
+             plyer.facades.
+
+             Light
+
+             Â¶
+
+             Light facade.
+
+             Light sensor measures the ambient light level(illumination) in lx.
+Common uses include controlling screen brightness.
+
+             With method
+
+              enable
+
+             you can turn on the sensor and
+
+              disable
+
+             method stops the sensor.
+
+             Use property
+
+              illumination
+
+             to get current illumination in lx.
+
+               New in version 1.2.5.
+
+             Supported Platforms:: Android
+
+               disable
+
+               (
+
+               )
+
+               Â¶
+
+               Disable light sensor.
+
+               enable
+
+               (
+
+               )
+
+               Â¶
+
+               Enable light sensor.
+
+               illumination
+
+               Â¶
+
+               Current illumination in lx.
+
+             class
+
+             plyer.facades.
+
+             Orientation
+
+             Â¶
+
+             Orientation facade.
+
+               set_landscape
+
+               (
+
+               reverse=False
+
+               )
+
+               Â¶
+
+               Rotate the app to a landscape orientation.
+
+                  Parameters:
+
+                   reverse
+
+                  â If True, uses the opposite of the natural
+orientation.
+
+               set_portrait
+
+               (
+
+               reverse=False
+
+               )
+
+               Â¶
+
+               Rotate the app to a portrait orientation.
+
+                  Parameters:
+
+                   reverse
+
+                  â If True, uses the opposite of the natural
+orientation.
+
+               set_sensor
+
+               (
+
+               mode='any'
+
+               )
+
+               Â¶
+
+               Rotate freely following sensor information from the device.
+
+                  Parameters:
+
+                   mode
+
+                  â The rotation mode, should be one of âanyâ (rotate
+to any orientation), âlandscapeâ (choose nearest
+landscape mode) or âportraitâ (choose nearest
+portrait mode). Defaults to âanyâ.
+
+             class
+
+             plyer.facades.
+
+             Notification
+
+             Â¶
+
+             Notification facade.
+
+               notify
+
+               (
+
+               title=''
+
+              ,
+
+               message=''
+
+              ,
+
+               app_name=''
+
+              ,
+
+               app_icon=''
+
+              ,
+
+               timeout=10
+
+              ,
+
+               ticker=''
+
+              ,
+
+               toast=False
+
+               )
+
+               Â¶
+
+               Send a notification.
+
+                  Parameters:
+
+                     title
+
+                    (
+
+                     str
+
+                    ) â Title of the notification
+
+                     message
+
+                    (
+
+                     str
+
+                    ) â Message of the notification
+
+                     app_name
+
+                    (
+
+                     str
+
+                    ) â Name of the app launching this notification
+
+                     app_icon
+
+                    (
+
+                     str
+
+                    ) â Icon to be displayed along with the message
+
+                     timeout
+
+                    (
+
+                     int
+
+                    ) â time to display the message for, defaults to 10
+
+                     ticker
+
+                    (
+
+                     str
+
+                    ) â text to display on status bar as the notification
+arrives
+
+                     toast
+
+                    (
+
+                     bool
+
+                    ) â simple Android message instead of full notification
+
+                Note
+
+                When called on Windows,
+
+                  app_icon
+
+                has to be a path to
+a file in .ICO format.
+
+                 New in version 1.0.0.
+
+                 Changed in version 1.4.0:
+
+                Add âtoastâ keyword argument
+
+             class
+
+             plyer.facades.
+
+             Proximity
+
+             Â¶
+
+             Proximity facade.
+
+             The proximity sensor is commonly used to determine distance whether
+phone is close to your head. Commonly is used when you have a call
+and you stick your phone with your head. Then screen of phone turns off.
+
+             Use method
+
+              enable
+
+             to turn on proximity sensor and method
+
+              disable
+
+             for
+turn off.
+
+             To check if some object (or your head) is near sensor check values from
+property
+
+              proximity
+
+             . It returns
+
+              True
+
+             when object is close.
+
+               New in version 1.2.5.
+
+             Supported Platforms::Android
+
+               disable
+
+               (
+
+               )
+
+               Â¶
+
+               Disable the proximity sensor.
+
+               enable
+
+               (
+
+               )
+
+               Â¶
+
+               Enable the proximity sensor.
+
+               proximity
+
+               Â¶
+
+               Return True or False depending if there is an object or not.
+
+                  Returns:
+
+                  True if there is an object. Otherwise False.
+
+             class
+
+             plyer.facades.
+
+             Sms
+
+             Â¶
+
+             Sms facade.
+
+               send
+
+               (
+
+               recipient
+
+              ,
+
+               message
+
+               )
+
+               Â¶
+
+               Send SMS or open SMS interface.
+
+                  Parameters:
+
+                     recipient
+
+                    (
+
+                     number
+
+                    ) â The reveiver
+
+                     message
+
+                    (
+
+                     str
+
+                    ) â the message
+
+             class
+
+             plyer.facades.
+
+             TTS
+
+             Â¶
+
+             TextToSpeech facade.
+
+               speak
+
+               (
+
+               message=''
+
+               )
+
+               Â¶
+
+               Use text to speech capabilities to speak the message.
+
+                  Parameters:
+
+                   message
+
+                  (
+
+                   str
+
+                  ) â What to speak
+
+             class
+
+             plyer.facades.
+
+             UniqueID
+
+             Â¶
+
+             UniqueID facade.
+
+               get_uid
+
+               (
+
+               )
+
+               Â¶
+
+               Public method for receiving unique ID via platform-specific
+API in plyer.platforms.
+
+               id
+
+               Â¶
+
+               Property that returns the unique id of the platform.
+
+             class
+
+             plyer.facades.
+
+             Vibrator
+
+             Â¶
+
+             Vibration facade.
+
+               cancel
+
+               (
+
+               )
+
+               Â¶
+
+               Cancels any current vibration, and stops the vibrator.
+
+               exists
+
+               (
+
+               )
+
+               Â¶
+
+               Check if the device has a vibrator. Returns True or
+False.
+
+               pattern
+
+               (
+
+               pattern=(0
+
+              ,
+
+               1)
+
+              ,
+
+               repeat=-1
+
+               )
+
+               Â¶
+
+               Ask the vibrator to vibrate with the given pattern, with an
+optional repeat.
+
+                  Parameters:
+
+                     pattern
+
+                    â Pattern to vibrate with. Should be a list of
+times in seconds. The first number is how long to wait
+before vibrating, and subsequent numbers are times to
+vibrate and not vibrate alternately.
+Defaults to
+
+                      [0,
+
+                      1]
+
+                    .
+
+                     repeat
+
+                    â Index at which to repeat the pattern. When the
+vibration pattern reaches this index, it will start again
+from the beginning. Defaults to
+
+                      -1
+
+                    , which means no
+repeat.
+
+               vibrate
+
+               (
+
+               time=1
+
+               )
+
+               Â¶
+
+               Ask the vibrator to vibrate for the given period.
+
+                  Parameters:
+
+                   time
+
+                  â Time to vibrate for, in seconds. Default is 1.
+
+             class
+
+             plyer.facades.
+
+             Wifi
+
+             Â¶
+
+             Wifi Facade.
+
+               connect
+
+               (
+
+               network
+
+              ,
+
+               parameters
+
+              ,
+
+               interface=None
+
+               )
+
+               Â¶
+
+               Method to connect to some network.
+
+               disable
+
+               (
+
+               )
+
+               Â¶
+
+               Wifi interface power state is set to âOFFâ.
+
+               disconnect
+
+               (
+
+               interface=None
+
+               )
+
+               Â¶
+
+               To disconnect from some network.
+
+               enable
+
+               (
+
+               )
+
+               Â¶
+
+               Wifi interface power state is set to âONâ.
+
+               get_available_wifi
+
+               (
+
+               )
+
+               Â¶
+
+               Returns a list of all the available wifi.
+
+               get_network_info
+
+               (
+
+               name
+
+               )
+
+               Â¶
+
+               Return a dictionary of secified network.
+
+               interfaces
+
+               Â¶
+
+               List all available WiFi interfaces.
+
+                 New in version 1.4.0.
+
+               is_connected
+
+               (
+
+               interface=None
+
+               )
+
+               Â¶
+
+               Return connection state of WiFi interface.
+
+                 New in version 1.4.0.
+
+               is_enabled
+
+               (
+
+               )
+
+               Â¶
+
+               Return enabled status of WiFi hardware.
+
+               start_scanning
+
+               (
+
+               interface=None
+
+               )
+
+               Â¶
+
+               Turn on scanning.
+
+             class
+
+             plyer.facades.
+
+             Flash
+
+             Â¶
+
+             Flash facade.
+
+               off
+
+               (
+
+               )
+
+               Â¶
+
+               Deactiavte the flash
+
+               on
+
+               (
+
+               )
+
+               Â¶
+
+               Activate the flash
+
+               release
+
+               (
+
+               )
+
+               Â¶
+
+               Release any access to the Flash / Camera.
+Call this when youâre done using the Flash.
+This will release the Camera, and stop any process.
+
+               Next call to
+
+                _on
+
+               will reactivate it.
+
+             class
+
+             plyer.facades.
+
+             CPU
+
+             Â¶
+
+             Facade providing info about sockets, physical and logical
+number of processors.
+
+               cache
+
+               Â¶
+
+               Property that contains the count of L1, L2, L3 caches in the system
+as a dictionary
+
+                {âL1â: int, âL2â: int, âL3â: int}
+
+               .
+
+               logical
+
+               Â¶
+
+               Property that contains the total number of logical cores
+(max thread count) in the system.
+
+                Note
+
+                 sockets * cores per socket * threads per core
+
+               numa
+
+               Â¶
+
+               Property that contains the count of NUMA nodes in the system.
+
+                Note
+
+                 https://en.wikipedia.org/wiki/Non-uniform_memory_access
+
+               physical
+
+               Â¶
+
+               Property that contains the total number of physical cores
+(max core count) in the system.
+
+                Note
+
+                 sockets * cores per socket
+
+               sockets
+
+               Â¶
+
+               Property that contains the count of CPU sockets.
+
+             class
+
+             plyer.facades.
+
+             Temperature
+
+             Â¶
+
+             Temperature facade.
+
+             Temperature sensor is used to measure the ambient room temperature in
+degrees Celsius (Â°C)
+With method
+
+              enable
+
+             you can turn on temperature sensor and âdisableâ
+method stops the sensor.
+Use property
+
+              temperature
+
+             to get ambient air temperature in degree C.
+
+               New in version 1.2.5.
+
+             Supported Platforms:: Android
+
+               disable
+
+               (
+
+               )
+
+               Â¶
+
+               Disable temperature sensor.
+
+               enable
+
+               (
+
+               )
+
+               Â¶
+
+               Enable temperature sensor.
+
+               temperature
+
+               Â¶
+
+               Current air temperature in degree C.
+
+             class
+
+             plyer.facades.
+
+             Humidity
+
+             Â¶
+
+             Humidity facade.
+Humidity sensor returns value of humidity.
+With method
+
+              enable
+
+             you can turn on Humidity sensor and
+âdisableâ method stops the sensor.
+Use property
+
+              tell
+
+             to get humidity value.
+
+               disable
+
+               (
+
+               )
+
+               Â¶
+
+               Disable Humidity sensor.
+
+               enable
+
+               (
+
+               )
+
+               Â¶
+
+               Enable Humidity sensor.
+
+               tell
+
+               Â¶
+
+               Current humidity
+
+             class
+
+             plyer.facades.
+
+             SpatialOrientation
+
+             Â¶
+
+             Spatial Orientation facade.
+
+             Computes the deviceâs orientation based on the rotation matrix.
+
+               New in version 1.3.1.
+
+               disable_listener
+
+               (
+
+               )
+
+               Â¶
+
+               Disable the orientation sensor.
+
+               enable_listener
+
+               (
+
+               )
+
+               Â¶
+
+               Enable the orientation sensor.
+
+               orientation
+
+               Â¶
+
+               Property that returns values of the current device orientation
+as a (azimuth, pitch, roll) tuple.
+
+               Azimuth, angle of rotation about the -z axis. This value represents the
+angle between the deviceâs y axis and the magnetic north pole.
+The range of values is -Ï to Ï.
+
+               Pitch, angle of rotation about the x axis. This value represents the
+angle between a plane parallel to the deviceâs screen and a plane
+parallel to the ground.
+The range of values is -Ï to Ï.
+
+               Roll, angle of rotation about the y axis. This value represents the
+angle between a plane perpendicular to the deviceâs screen and a plane
+perpendicular to the ground.
+The range of values is -Ï/2 to Ï/2.
+
+               Returns (None, None, None) if no data is currently available.
+
+               Supported Platforms:: Android
+
+             class
+
+             plyer.facades.
+
+             Brightness
+
+             Â¶
+
+             Brightness facade.
+
+               current_level
+
+               (
+
+               )
+
+               Â¶
+
+               Know the current level of deviceâs brightness.
+
+               set_level
+
+               (
+
+               level
+
+               )
+
+               Â¶
+
+               Adjust the brightness of the screen.
+Minimum brightnesss level:: 1
+Maximum brightness level:: 100
+
+                  Parameters:
+
+                   level
+
+                  (
+
+                   int
+
+                  ) â New level of brightness between 1 and 100
+
+             class
+
+             plyer.facades.
+
+             Processors
+
+             Â¶
+
+             Number of Processors info facade.
+
+               status
+
+               Â¶
+
+                Property that contains a dict with the following fields:
+
+                     Number_of_Processors
+
+                     (int)
+
+                    : Number of Processors in
+
+                   the system
+
+                  Warning
+
+                  If any of the fields is not readable, it is set as
+None.
+
+             class
+
+             plyer.facades.
+
+             StoragePath
+
+             Â¶
+
+             StoragePath facade.
+
+               get_application_dir
+
+               (
+
+               )
+
+               Â¶
+
+               Get the path of the directory holding application files.
+
+               get_documents_dir
+
+               (
+
+               )
+
+               Â¶
+
+               Get the path of standard directory in which to place documents that
+have been created by the user.
+
+               get_downloads_dir
+
+               (
+
+               )
+
+               Â¶
+
+               Get the path of standard directory in which to place files that have
+been downloaded by the user.
+
+               get_external_storage_dir
+
+               (
+
+               )
+
+               Â¶
+
+               Get the path of primary shared or external storage directory.
+
+               get_home_dir
+
+               (
+
+               )
+
+               Â¶
+
+               Get the path of home directory of current user.
+
+               get_music_dir
+
+               (
+
+               )
+
+               Â¶
+
+               Get the path of standard directory in which to place any audio files
+that should be in the regular list of music for the user.
+
+               get_pictures_dir
+
+               (
+
+               )
+
+               Â¶
+
+               Standard directory in which to place pictures that are available to
+the user.
+
+               get_root_dir
+
+               (
+
+               )
+
+               Â¶
+
+               Get the path of root of the âsystemâ partition holding the core OS.
+
+               get_sdcard_dir
+
+               (
+
+               )
+
+               Â¶
+
+               Get the path of external SD card.
+
+                 New in version 1.4.0.
+
+               get_videos_dir
+
+               (
+
+               )
+
+               Â¶
+
+               Get the path of standard directory in which to place videos that are
+available to the user.
+
+             class
+
+             plyer.facades.
+
+             Keystore
+
+             Â¶
+
+             Keyring facade
+
+               New in version x.x.x.
+
+             class
+
+             plyer.facades.
+
+             Bluetooth
+
+             Â¶
+
+             Bluetooth facade.
+
+               info
+
+               Â¶
+
+               Property that returns the info (currently status) of the bluetooth.
+
+             class
+
+             plyer.facades.
+
+             Screenshot
+
+             (
+
+             file_path=None
+
+             )
+
+             Â¶
+
+             Screenshot facade.
+
+             class
+
+             plyer.facades.
+
+             STT
+
+             Â¶
+
+             Speech to text facade.
+
+               errors
+
+               = []
+
+               Â¶
+
+               List of errors found while listening.
+
+               exist
+
+               (
+
+               )
+
+               Â¶
+
+               Returns a boolean for speech recognition availability.
+
+               language
+
+               Â¶
+
+               Return current language.
+
+               listening
+
+               = False
+
+               Â¶
+
+               Current state of listening.
+
+               partial_results
+
+               = []
+
+               Â¶
+
+               List of results found while the listener is still being active.
+
+               prefer_offline
+
+               = True
+
+               Â¶
+
+               Preference whether to use offline language package necessary for
+each platform dependant implementation or online API.
+
+               results
+
+               = []
+
+               Â¶
+
+               List of sentences found while listening. It may consist of many similar
+and possible sentences that was recognition program.
+
+               start
+
+               (
+
+               )
+
+               Â¶
+
+               Start listening.
+
+               stop
+
+               (
+
+               )
+
+               Â¶
+
+               Stop listening.
+
+               supported_languages
+
+               Â¶
+
+               Return list of supported languages used in recognition.
+
+          Indices and tables
+
+           Â¶
+
+             Index
+
+             Module Index
+
+             Search Page
+
+         © Copyright 2013, Mathieu Virbel, Akshay Aurora, Gabriel Petier, Ben Rousch
+
+          Revision
+
+           cb77e461
+
+          .
+
+       Built with
+
+        Sphinx
+
+       using a
+
+        theme
+
+       provided by
+
+        Read the Docs
+
+       .
+

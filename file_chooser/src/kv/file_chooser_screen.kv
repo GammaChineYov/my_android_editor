@@ -1,0 +1,18 @@
+#:kivy 2.2.1
+
+<FileChooserScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+
+        Label:
+            id: directory_label
+            text: '当前目录：'
+            size_hint_y: None
+            halign: 'left'
+            valign: 'top'
+            text_size: (root.width, None)
+
+        FileChooserListView:
+            id: file_chooser
+            on_path: directory_label.text = f'当前目录：{self.path}'
+            on_submit: root.handle_selection_change(args[1])
