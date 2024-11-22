@@ -1,0 +1,17 @@
+{
+    "version": "2.0",
+    "configurations": [
+        
+        
+        {
+            "name": "Python: Launch Current File",
+            // 此调试配置用于启动当前在VSCode中打开的Python文件
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            // "${file}"是一个变量，它会被替换为当前在VSCode中打开的Python文件的完整路径，这样就可以直接启动该文件进行调试
+            "console": "integratedTerminal"
+            // 指定在集成终端中显示调试输出信息，你也可以根据需要选择其他的控制台类型，比如“externalTerminal”等
+        }
+    ]
+}
